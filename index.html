@@ -68,8 +68,8 @@
         function herzle() {
             var c;
             if (Math.abs(x - ox) > 1 || Math.abs(y - oy) > 1) {
-                ox = x;
-                oy = y;
+                ox = x;                                                                     
+                oy = y;                                                                     
                 for (c = 0; c < hearts; c++) if (herzy[c] === false) {
                     herz[c].firstChild.nodeValue = String.fromCharCode(9829);
                     herz[c].style.left = (herzx[c] = x - minisize / 2) + "px";
